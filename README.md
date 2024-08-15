@@ -1,3 +1,16 @@
+Collaborative SaaS application with authentication, document storage, live collaborative features, enterprise-ready application monitoring
+
+LiveDocs is a clone of Goole Docs
+
+Tech Stack
+
+    Next.js
+    TypeScript
+    Liveblocks
+    Lexical Editor
+    ShadCN
+    Tailwind CSS
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
