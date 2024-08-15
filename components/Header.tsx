@@ -1,19 +1,23 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import Logo from '@/public/assets/icons/logo.svg';
+import LogoIcon from '@/public/assets/icons/logo-icon.svg';
 
 export default function Header({ children }: HeaderProps) {
   return (
     <header className="header">
       <Link href={'/'} className="md:flex-1">
         <Image
-          src="/assets/icons/logo.svg"
+          // src="/assets/icons/logo.svg"
+          src={Logo}
           alt="Logo with name"
           width={120}
           height={32}
           className="hidden md:block"
         />
         <Image
-          src="/assets/icons/logo-icon.svg"
+          // src="/assets/icons/logo-icon.svg"
+          src={LogoIcon}
           alt="Logo"
           width={32}
           height={32}
