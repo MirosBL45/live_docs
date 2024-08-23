@@ -45,7 +45,8 @@
   }
 
   .gradient-blue {
-    @apply bg-gradient-to-t from-blue-500 to-blue-400;
+    @apply bg-gradient-to-t from-blue-500 to-green-400;
+    /* @apply bg-gradient-to-t from-blue-500 to-blue-400; */
   }
 
   .gradient-red {
@@ -170,6 +171,10 @@
   .collaborative-room {
     @apply flex size-full max-h-screen flex-1 flex-col items-center overflow-hidden;
   }
+
+  /* .transition-sm {
+    @apply transition duration-[230ms];
+  } */
 }
 
 /* ======================== Clerk Override */
