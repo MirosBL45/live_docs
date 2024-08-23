@@ -1,9 +1,6 @@
 'use client';
 
-import {
-  ClientSideSuspense,
-  RoomProvider,
-} from '@liveblocks/react/dist/suspense';
+import { ClientSideSuspense, RoomProvider } from '@liveblocks/react/suspense'
 
 import { Editor } from '@/components/editor/Editor';
 import Header from '@/components/Header';
