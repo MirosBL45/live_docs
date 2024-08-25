@@ -11,3 +11,4 @@ Tech Stack
     ShadCN
     Tailwind CSS
     Clerk
+    nanoid
