@@ -2,7 +2,7 @@ Collaborative SaaS application with authentication, document storage, live colla
 
 LiveDocs is a clone of Goole Docs
 
-Tech Stack used in this project
+Tech Stack used in this project so far
 
     Next.js
     TypeScript
