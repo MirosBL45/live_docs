@@ -12,6 +12,7 @@ import { useRef, useState, useEffect } from 'react';
 import { Input } from './ui/input';
 import { updateDocument } from '@/lib/actions/room.actions';
 import Image from 'next/image';
+import Loader from './Loader';
 
 export default function CollaborativeRoom({
   roomId,
@@ -72,7 +73,7 @@ export default function CollaborativeRoom({
 
   return (
     <RoomProvider id={roomId}>
-      <ClientSideSuspense fallback={<div>Loading…</div>}>
+      <ClientSideSuspense fallback={<Loader />}>
         <div className="collaborative-room">
           <Header>
             <div
