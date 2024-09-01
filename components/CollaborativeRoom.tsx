@@ -6,10 +6,14 @@ import { Editor } from '@/components/editor/Editor';
 import Header from '@/components/Header';
 import { SignInButton, SignedIn, SignedOut, UserButton } from '@clerk/nextjs';
 import ActiveCollaborators from './ActiveCollaborators';
+import { useState } from 'react';
 
-export default function CollaborativeRoom() {
+export default function CollaborativeRoom({ roomId, roomMetadata }: CollaborativeRoomProps) {
+  const [editing, setEditing] = useState(false);
+  const [loading, setLoading] = useState(false);
+
   return (
-    <RoomProvider id="my-room">
+    <RoomProvider id={roomId}>
       <ClientSideSuspense fallback={<div>Loading…</div>}>
         <div className="collaborative-room">
           <Header>

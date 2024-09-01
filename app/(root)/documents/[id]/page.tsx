@@ -12,9 +12,11 @@ export default async function Document({ params: { id } }: SearchParamProps) {
     userId: clerkUser.emailAddresses[0].emailAddress,
   });
 
+  if (!room) redirect('/');
+
   return (
     <main className="flex w-full flex-col items-center">
-      <CollaborativeRoom />
+      <CollaborativeRoom roomId={id} roomMetadata={room.metadata} />
     </main>
   );
 }
