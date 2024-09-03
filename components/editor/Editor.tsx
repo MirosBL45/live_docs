@@ -10,6 +10,7 @@ import { ContentEditable } from '@lexical/react/LexicalContentEditable';
 import { HistoryPlugin } from '@lexical/react/LexicalHistoryPlugin';
 import { LexicalErrorBoundary } from '@lexical/react/LexicalErrorBoundary';
 import React from 'react';
+import { liveblocksConfig } from '@liveblocks/react-lexical';
 
 // Catch any errors that occur during Lexical updates and log them
 // or throw them as needed. If you don't throw them, Lexical will
@@ -20,7 +21,7 @@ function Placeholder() {
 }
 
 export function Editor() {
-  const initialConfig = {
+  const initialConfig = liveblocksConfig({
     namespace: 'Editor',
     nodes: [HeadingNode],
     onError: (error: Error) => {
@@ -28,7 +29,8 @@ export function Editor() {
       throw error;
     },
     theme: Theme,
-  };
+    editable: true,
+  });
 
   return (
     <LexicalComposer initialConfig={initialConfig}>
