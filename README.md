@@ -12,3 +12,4 @@ Tech Stack used in this project so far
     Tailwind CSS
     Clerk
     nanoid
+    SENTRY
