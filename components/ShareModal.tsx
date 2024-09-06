@@ -1,7 +1,17 @@
 'use client';
 
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from '@/components/ui/dialog';
+
 import { useState } from 'react';
 import { useSelf } from '@liveblocks/react/suspense';
+import Image from 'next/image';
 
 export default function ShareModal({
   roomId,
