@@ -17,7 +17,7 @@ This project is a collaborative SaaS application inspired by Google Docs. It fea
 ### 3. **Styling**
 
 - **ShadCN**: A design system for building beautiful UIs, providing a consistent look and feel across the application.
-  - <a href="https://shadcn.dev/" target="_blank">Learn more about ShadCN</a>
+  - <a href="https://ui.shadcn.com/" target="_blank">Learn more about ShadCN</a>
 - **Tailwind CSS**: A utility-first CSS framework that allows for responsive and custom designs with ease.
 
 ### 4. **Authentication and Security**
