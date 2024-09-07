@@ -22,8 +22,7 @@ import Bell from '@/public/assets/icons/bell.svg';
 
 export default function Notifications() {
   const { inboxNotifications } = useInboxNotifications();
-  //   const { count } = useUnreadInboxNotificationsCount();
-  let count = 2;
+  const { count } = useUnreadInboxNotificationsCount();
 
   const unreadNotifications = inboxNotifications.filter(
     (notification) => !notification.readAt
