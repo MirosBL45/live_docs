@@ -123,7 +123,7 @@ function Toolbar({
         >
           <Image
             src="/assets/icons/comment.svg"
-            alt="comment"
+            alt="comment by Miroslav Jovic Frontend Developer"
             width={24}
             height={24}
           />

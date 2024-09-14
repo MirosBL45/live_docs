@@ -24,7 +24,7 @@ export default function AddDocumentBtn({ userId, email }: AddDocumentBtnProps) {
       type="submit"
       onClick={addDocumentHandler}
     >
-      <Image src={Add} alt="add" width={24} height={24} />
+      <Image src={Add} alt="add by Miroslav Jovic Frontend Developer" width={24} height={24} />
       <p className="hidden sm:block">Start a blank document</p>
     </Button>
   );

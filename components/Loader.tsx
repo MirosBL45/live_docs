@@ -7,7 +7,7 @@ export default function Loader() {
       <Image
         // src={'/assets/icons/loader.svg'}
         src={LoaderImage}
-        alt="Loader"
+        alt="Loader by Miroslav Jovic Frontend Developer"
         width={32}
         height={32}
         className="animate-spin"

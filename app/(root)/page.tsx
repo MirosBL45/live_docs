@@ -50,7 +50,7 @@ export default async function Home() {
                   className="flex flex-1 items-center gap-4"
                 >
                   <div className="hidden rounded-md bg-dark-500 p-2 sm:block">
-                    <Image src={Doc} alt="file" width={40} height={40} />
+                    <Image src={Doc} alt="file by Miroslav Jovic Frontend Developer" width={40} height={40} />
                   </div>
                   <div className="space-y-1">
                     <p className="line-clamp-1 text-lg">{metadata.title}</p>
@@ -68,7 +68,7 @@ export default async function Home() {
         <div className="document-list-empty">
           <Image
             src={Document}
-            alt="Document"
+            alt="Document by Miroslav Jovic Frontend Developer"
             width={40}
             height={40}
             className="mx-auto"

@@ -57,7 +57,7 @@ export default function ShareModal({
         >
           <Image
             src={Share}
-            alt="share"
+            alt="share by Miroslav Jovic Frontend Developer"
             width={20}
             height={20}
             className="min-w-4 md:size-5"

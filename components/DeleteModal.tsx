@@ -43,7 +43,7 @@ export default function DeleteModal({ roomId }: DeleteModalProps) {
         <Button className="min-w-9 rounded-xl bg-transparent p-2 transition-all">
           <Image
             src={Delete}
-            alt="delete"
+            alt="delete by Miroslav Jovic Frontend Developer"
             width={20}
             height={20}
             className="mt-1"
@@ -55,7 +55,7 @@ export default function DeleteModal({ roomId }: DeleteModalProps) {
         <DialogHeader>
           <Image
             src="/assets/icons/delete-modal.svg"
-            alt="delete"
+            alt="delete by Miroslav Jovic Frontend Developer"
             width={48}
             height={48}
             className="mb-4"

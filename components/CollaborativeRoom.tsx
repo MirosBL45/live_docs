@@ -101,7 +101,7 @@ export default function CollaborativeRoom({
               {currentUserType === 'editor' && !editing && (
                 <Image
                   src={Edit}
-                  alt="edit"
+                  alt="edit by Miroslav Jovic Frontend Developer"
                   width={24}
                   height={24}
                   onClick={() => setEditing(true)}

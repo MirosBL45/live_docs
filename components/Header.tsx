@@ -11,7 +11,7 @@ export default function Header({ children, className }: HeaderProps) {
         <Image
           // src="/assets/icons/logo.svg"
           src={Logo}
-          alt="Logo with name"
+          alt="Logo with name by Miroslav Jovic Frontend Developer"
           width={120}
           height={32}
           className="hidden md:block"
@@ -19,7 +19,7 @@ export default function Header({ children, className }: HeaderProps) {
         <Image
           // src="/assets/icons/logo-icon.svg"
           src={LogoIcon}
-          alt="Logo"
+          alt="Logo by Miroslav Jovic Frontend Developer"
           width={32}
           height={32}
           className="mr-2 md:hidden"

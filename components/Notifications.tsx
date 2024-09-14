@@ -33,7 +33,7 @@ export default function Notifications() {
       <PopoverTrigger className="relative flex size-10 items-center justify-center rounded-lg">
         <Image
           src={Bell}
-          alt="inbox"
+          alt="inbox by Miroslav Jovic Frontend Developer"
           width={24}
           height={24}
           title="Notifications"
@@ -92,7 +92,7 @@ export default function Notifications() {
                               }
                               width={36}
                               height={36}
-                              alt="avatar"
+                              alt="avatar by Miroslav Jovic Frontend Developer"
                               className="rounded-full"
                             />
                           </InboxNotification.Icon>
